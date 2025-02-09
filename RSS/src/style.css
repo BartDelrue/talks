@@ -1,0 +1,13 @@
+h1 {
+  background-image: linear-gradient(90deg, #e80062, #e523be);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Required for WebKit browsers */
+  overflow: visible;
+  padding-block-end: .2em;
+}
+
+
+.slidev-page {
+  --uno: p-is-4
+}

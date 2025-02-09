@@ -1,11 +1,5 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# My talks
 
-To start the slide show:
+Disclaimer: I based this repository for multiple slidev presentations on the by 
+[Anthony Fu](https://github.com/antfu/talks)
 
-- `pnpm install`
-- `pnpm dev`
-- visit <http://localhost:3030>
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev at the [documentation](https://sli.dev/).

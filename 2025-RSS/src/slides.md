@@ -1,4 +1,5 @@
 ---
+routerMode: 'hash'
 # You can also start simply with 'default'
 theme: geist
 # some information about your slides (markdown enabled)

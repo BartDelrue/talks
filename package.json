@@ -5,8 +5,7 @@
   "scripts": {
     "build": "rimraf dist && pnpm -r run build ",
     "dev": "esno scripts/picker.ts dev --open",
-    "typecheck": "vue-tsc --noEmit",
-    "lint": "eslint ."
+    "typecheck": "vue-tsc --noEmit"
   },
   "pnpm": {
     "overrides": {

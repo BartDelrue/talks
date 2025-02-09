@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /talks/RSS/ --out ../../dist/RSS",
+    "export": "slidev export --per-slide --output ../slides.pdf"
+  },
+  "devDependencies": {
+    "slidev-theme-geist": "^0.8.1"
+  }
+}

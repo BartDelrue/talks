@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /talks/webmention/ --out ../../dist/webmention",
+    "export": "slidev export --per-slide --output ../slides.pdf"
+  },
+  "dependencies": {
+    "@talks/components": "workspace:*"
+  },
+  "devDependencies": {
+    "slidev-theme-geist": "^0.8.1"
+  }
+}

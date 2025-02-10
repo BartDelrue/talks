@@ -60,6 +60,10 @@ importers:
         version: 0.8.1
 
   2025-webmention/src:
+    dependencies:
+      '@talks/components':
+        specifier: workspace:*
+        version: link:../../components/src
     devDependencies:
       slidev-theme-geist:
         specifier: ^0.8.1

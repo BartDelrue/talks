@@ -2,6 +2,7 @@
 routerMode: 'hash'
 # You can also start simply with 'default'
 theme: geist
+colorSchema: dark
 # some information about your slides (markdown enabled)
 title: RSS
 # https://sli.dev/features/drawing

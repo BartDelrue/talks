@@ -69,7 +69,7 @@ import video from '/hello_darkness.mp4'
 
 ![google+](https://upload.wikimedia.org/wikipedia/commons/0/0b/Google_Plus_logo_%282015-2019%29.svg){style="--delay: 24s;"}
 
-![friendster](https://upload.wikimedia.org/wikipedia/commons/9/95/Friendster_logo_new.svg){style="--delay: 32s;"}
+![friendster](https://upload.wikimedia.org/wikipedia/commons/9/95/Friendster_logo_new.svg){style="--delay: 28s;"}
 
 ::
 
@@ -152,7 +152,7 @@ Host: target.example.com
 Content-Type: application/x-www-form-urlencoded
 
 source=https://source.example.com/post/123
-&target=https://target.example.com/article
+&target=https://target.example.com/article/12
 ```
 
 ---
@@ -317,7 +317,6 @@ or
   <time class="dt-published" datetime="2025-02-10T12:00:00Z">February 10, 2025</time>
 </div>
 ```
-
 
 ---
 layout: center

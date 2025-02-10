@@ -321,10 +321,13 @@ or
 
 ---
 layout: center
+transition: slide-left
 ---
 
 ![what are we supposed to do now](https://media1.tenor.com/m/rqRgqoy04n8AAAAd/what-are-we-supposed-to-do-now-jocelyn.gif)
 
+---
+transition: slide-left
 ---
 
 ## Implementation Option 1: Webmention.io (Easy)
@@ -333,6 +336,9 @@ layout: center
 ![easy](https://media1.tenor.com/m/Cde3Ul34gSsAAAAC/easy-breezy-olivia-oblanc.gif)
 
 ---
+transition: slide-left
+---
+
 
 ## Implementation Option 2: deno 🦕 (Medium)
 - I actually created a very lightweight version using deno: 
@@ -346,6 +352,8 @@ layout: center
 
 ![a little more challenging](https://media1.tenor.com/m/twYBwnbj6p0AAAAd/a-little-more-challenging-alex.gif){.block.h-48}
 
+---
+transition: slide-left
 ---
 
 ## Implementation Option 3: Contribute to the Project (Hard)

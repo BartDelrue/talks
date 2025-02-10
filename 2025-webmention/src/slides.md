@@ -259,7 +259,7 @@ transition: slide-left
 ## Extending Webmention
 
 - **[Microformats](http://microformats.org/wiki/microformats2)**: 
-  Add structured data to mentions with
+  Add structured data.
 
 Used in webmentions: [h-card](https://microformats.org/wiki/h-card), [h-cite](https://microformats.org/wiki/h-cite)
 , [h-entry](https://microformats.org/wiki/h-entry)

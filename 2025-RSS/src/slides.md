@@ -75,7 +75,7 @@ layout: center
 transition: slide-up
 ---
 
-:Youtube{id=r98HbsaN9nw .w-screen.aspect-16/9}
+:Youtube{id=r98HbsaN9nw}
 
 ---
 layout: two-cols
@@ -504,4 +504,4 @@ image: https://media1.tenor.com/m/KAEd2ywSnmQAAAAd/bernie-stand-up-and-change-th
 layout: center
 ---
 
-:Youtube{id=8de2W3rtZsA .w-screen.aspect-16/9}
+:Youtube{id=8de2W3rtZsA}

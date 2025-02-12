@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /talks/webmention/ --out ../../dist/webmention",
+    "build": "slidev build --download --base /talks/webmention/ --out ../../dist/webmention",
     "export": "slidev export --per-slide --output ../slides.pdf"
   },
   "dependencies": {

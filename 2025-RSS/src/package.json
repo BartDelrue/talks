@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --download --base /talks/RSS/ --out ../../dist/RSS",
+    "build": "slidev build --base /talks/RSS/ --out ../../dist/RSS",
     "export": "slidev export --per-slide --output ../slides.pdf"
   },
   "dependencies": {

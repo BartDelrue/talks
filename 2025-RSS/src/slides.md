@@ -13,11 +13,7 @@ transition: slide-left
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 export:
-  format: pdf
   timeout: 60000
-  dark: false
-  withClicks: false
-  withToc: true
 contextMenu: false
 selectable: true
 download: true

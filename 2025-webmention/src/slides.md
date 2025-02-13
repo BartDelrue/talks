@@ -8,7 +8,8 @@ drawings:
   persist: false
 transition: slide-up
 mdc: true
-export: true
+export:
+  timeout: 60000
 contextMenu: false
 selectable: true
 download: true

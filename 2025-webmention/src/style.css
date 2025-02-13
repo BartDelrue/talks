@@ -1,3 +1,12 @@
+* {
+    @apply select-initial;
+
+    ::selection {
+        color: white;
+        background-color: #790457;
+    }
+}
+
 h1 {
     background-image: linear-gradient(90deg, #00e827, #23e5df);
     -webkit-background-clip: text;

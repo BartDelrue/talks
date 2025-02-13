@@ -14,6 +14,9 @@ export:
   dark: false
   withClicks: false
   withToc: true
+contextMenu: false
+selectable: true
+download: true
 ---
 
 <!-- Slide 1 -->

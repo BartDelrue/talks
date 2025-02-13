@@ -18,6 +18,9 @@ export:
   dark: false
   withClicks: false
   withToc: true
+contextMenu: false
+selectable: true
+download: true
 ---
 
 # RSS - it's not dead, it's gone underground

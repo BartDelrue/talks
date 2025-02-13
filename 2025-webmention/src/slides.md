@@ -8,12 +8,7 @@ drawings:
   persist: false
 transition: slide-up
 mdc: true
-export:
-  format: pdf
-  timeout: 60000
-  dark: false
-  withClicks: false
-  withToc: true
+export: true
 contextMenu: false
 selectable: true
 download: true

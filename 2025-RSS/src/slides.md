@@ -42,7 +42,7 @@ matter</em></h2>
 ## Content advisory slide
 
 ::v-clicks{.flex.flex-wrap.gap-1.*:m-0}
-- Contains load noises,
+- Contains loud noises,
 - flashes of light,
 - strong language,
 - political content,

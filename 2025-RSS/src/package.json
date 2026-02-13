@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "slidev",
-    "build": "slidev build --base /talks/RSS/ --out ../../dist/RSS",
+    "build": "slidev build --base /talks/RSS/ --out ../../dist/RSS --timeout 120000",
     "export": "slidev export --per-slide --output ../slides.pdf"
   },
   "dependencies": {

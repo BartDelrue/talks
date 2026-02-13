@@ -462,7 +462,7 @@ layout: two-cols
 
 ![Mastodon](https://upload.wikimedia.org/wikipedia/commons/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg){.w-28}
 
-![Lemmy](https://upload.wikimedia.org/wikipedia/commons/5/52/Lemmy_logo.svg){.w-28}
+![Lemmy](https://storage.mushroomlabs.pro/com.communick.media/service_logos/logo-lemmy.png){.w-28}
 
 </div>
 

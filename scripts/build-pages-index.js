@@ -20,7 +20,7 @@ async function getFolders(directory) {
       .sort((a, b) => a.localeCompare(b))
   } catch (error) {
     if (error?.code === 'ENOENT') {
-      throw new Error(`Cannot generate GitHub Pages index because ${directory} does not exist.`)
+      throw new Error(`Cannot generate the root Pages entry file because the build output directory ${directory} does not exist.`)
     }
 
     throw error
@@ -80,4 +80,8 @@ ${links}
 </html>
 `
 
-await fs.writeFile(path.join(distDir, 'index.html'), html)
+try {
+  await fs.writeFile(path.join(distDir, 'index.html'), html)
+} catch (error) {
+  throw new Error(`Failed to write the root Pages entry file: ${error.message}`)
+}

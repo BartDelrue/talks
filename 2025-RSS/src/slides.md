@@ -33,7 +33,7 @@ matter</em></h2>
 
 </div>
 
-![](https://media1.tenor.com/m/ctveG5gjgvsAAAAC/pbell.gif){.w-2/3 v-click}
+![](/pbell.gif){.w-2/3 v-click}
 
 </div>
 
@@ -67,7 +67,7 @@ transition: slide-up
 
 ::right::
 
-![](https://media1.tenor.com/m/7T0EYxwXSmEAAAAd/algorithm-terminator.gif){.h-2/3}
+![](/algorithm-terminator.gif){.h-2/3}
 
 ---
 layout: center
@@ -120,11 +120,11 @@ transition: slide-up
 class: flex gap-2
 ---
 
-![Mark zuckerberg testifies in senate](https://media1.tenor.com/m/xTuvS7VJTz0AAAAd/mark-zuckerberg.gif)
+![Mark zuckerberg testifies in senate](/mark-zuckerberg.gif)
 
-![Elon Musk at the Trump inauguration](https://media1.tenor.com/m/SbrLoFPUiHMAAAAC/elon-musk-musk.gif)
+![Elon Musk at the Trump inauguration](/elon-musk.gif)
 
-![Sundar Pichai](https://media1.tenor.com/m/OFKzVWYCW4YAAAAd/smiling-nailed-it.gif)
+![Sundar Pichai](/sundar-pichai.gif)
 
 ---
 layout: center
@@ -140,7 +140,7 @@ import video from '/ratm.mp4'
 layout: center
 ---
 
-![fuck the system](https://media1.tenor.com/m/bZxskz7HU1IAAAAd/teletubbies-fuck-the-system.gif){.w-screen}
+![fuck the system](/teletubbies-fuck-the-system.gif){.w-screen}
 
 ---
 layout: center
@@ -149,7 +149,7 @@ transition: slide-up
 
 # The Web Before the Algorithm{.m-be-24}
 
-![welcome to the old internet](https://media1.tenor.com/m/41J3A6rJl0wAAAAC/internet.gif){.h-2/3}
+![welcome to the old internet](/old-internet.gif){.h-2/3}
 
 ---
 layout: split
@@ -171,7 +171,7 @@ transition: slide-up
   → For the fans, not the brands
   ::
 
-![dancing baby, early internet meme](https://media1.tenor.com/m/AYtmgkOTh3QAAAAC/dancing-baby-dance.gif){.h-8/10.opacity-70}
+![dancing baby, early internet meme](/dancing-baby.gif){.h-8/10.opacity-70}
 
 ---
 transition: slide-up
@@ -206,7 +206,7 @@ transition: slide-up
 layout: center
 ---
 
-![Curt Cobain looks directly in the camera with a hinting smile](https://media1.tenor.com/m/wVCFY25qVfMAAAAd/kurt-cobain-nirvana.gif)
+![Curt Cobain looks directly in the camera with a hinting smile](/kurt-cobain-nirvana.gif)
 
 A **Really**, **Simple** way  
 ::v-click
@@ -232,7 +232,7 @@ class: max-h-full overflow-hidden
 - Works for **blogs, podcasts, news, even YouTube**
 
 <div class="relative max-h-1/4 text-right overflow-hidden">
-<img class="inline w-1/2" src="https://media1.tenor.com/m/yr5E037WWKUAAAAC/mosh-pit-terror.gif" alt="">
+<img class="inline w-1/2" src="/mosh-pit-terror.gif" alt="">
 </div>
 
 ---
@@ -336,7 +336,7 @@ but it could have been worse...
 
 </div>
 
-![it's history](https://media1.tenor.com/m/eNLQOvPhejEAAAAC/history-lincoln.gif){.w-40.absolute.top-0.right-0}
+![it's history](/history-lincoln.gif){.w-40.absolute.top-0.right-0}
 
 ---
 transition: slide-up
@@ -352,7 +352,7 @@ transition: slide-up
 
 ## Supported by _not yet evil_ corporations
 
-![google reader](https://platform.theverge.com/wp-content/uploads/sites/2/chorus/assets/2147505/20130211-10455160-4-IMG_3044.JPG?quality=90&strip=all&crop=0,0,100,100){.w-1/2}
+![google reader](/google-reader.jpg){.w-1/2}
 
 Image source: [theverge.com](https://www.theverge.com/23778253/google-reader-death-2013-rss-social)
 ---
@@ -361,7 +361,7 @@ transition: slide-up
 
 ## So... how come I never heard of it?
 
-![sad Cobain](https://media1.tenor.com/m/9q5hjOu2lRAAAAAC/kurt-cobain-smile.gif)
+![sad Cobain](/kurt-cobain-smile.gif)
 
 ---
 transition: slide-up
@@ -413,7 +413,7 @@ transition: slide-up
 # RSS is not dead!
 # It's gone underground.{v-click}
 
-![underground](https://media1.tenor.com/m/dkEBvhaDmjAAAAAd/party-diplo.gif){v-click .absolute.inset-0.w-full.z--1 fade}
+![underground](/underground.gif){v-click .absolute.inset-0.w-full.z--1 fade}
 
 ---
 transition: slide-up
@@ -456,20 +456,20 @@ layout: two-cols
 
 ![Indieweb](/indieweb.png){.w-48}
 
-![Mozilla](https://www.mozilla.org/media/img/foundation/annualreport/2024/articles/1-3-brand-logo.b6f37611bc45.gif){.w-48}
+![Mozilla](/mozilla.gif){.w-48}
 
-![Tor](https://blog.torproject.org/there-are-many-ways-help-tor-take-back-internet/lead.png){.w-48}
+![Tor](/tor.svg){.w-48}
 
-![Mastodon](https://upload.wikimedia.org/wikipedia/commons/d/d5/Mastodon_logotype_%28simple%29_new_hue.svg){.w-28}
+![Mastodon](/mastodon.svg){.w-28}
 
-![Lemmy](https://storage.mushroomlabs.pro/com.communick.media/service_logos/logo-lemmy.png){.w-28}
+![Lemmy](/lemmy.png){.w-28}
 
 </div>
 
 ---
 transition: slide-up
 layout: image-right
-image: https://media1.tenor.com/m/KAEd2ywSnmQAAAAd/bernie-stand-up-and-change-the-damn-system-bernie-change.gif
+image: /bernie.gif
 ---
 
 ## So, what can you do?

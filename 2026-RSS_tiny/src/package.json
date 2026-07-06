@@ -1,0 +1,17 @@
+{
+  "name": "@talks/2026-RSS_tiny",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "slidev",
+    "build": "slidev build --base /talks/RSS-tiny/ --out ../../dist/RSS-tiny --timeout 120000",
+    "export": "slidev export --per-slide --output ../slides.pdf"
+  },
+  "dependencies": {
+    "@talks/components": "workspace:*"
+  },
+  "devDependencies": {
+    "slidev-theme-geist": "^0.8.1"
+  }
+}

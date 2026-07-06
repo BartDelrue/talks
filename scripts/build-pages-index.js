@@ -4,8 +4,9 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const distDir = path.resolve(__dirname, '..', 'dist')
+const siteTitle = 'Talks'
 
-const formatFolderName = (name) => name.replaceAll('-', ' ')
+const humanizeFolderName = (name) => name.replaceAll('-', ' ')
 
 async function getFolders(directory) {
   try {
@@ -15,7 +16,7 @@ async function getFolders(directory) {
       .sort((a, b) => a.localeCompare(b))
   } catch (error) {
     if (error?.code === 'ENOENT') {
-      throw new Error(`Cannot generate Pages index because ${directory} does not exist yet.`)
+      throw new Error(`Cannot generate GitHub Pages index because ${directory} does not exist yet.`)
     }
 
     throw error
@@ -25,7 +26,7 @@ async function getFolders(directory) {
 const folders = await getFolders(distDir)
 
 const links = folders
-  .map((folder) => `      <li><a href="./${folder}/">${formatFolderName(folder)}</a></li>`)
+  .map((folder) => `      <li><a href="./${folder}/">${humanizeFolderName(folder)}</a></li>`)
   .join('\n')
 
 const html = `<!doctype html>
@@ -33,7 +34,7 @@ const html = `<!doctype html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Talks</title>
+    <title>${siteTitle}</title>
     <style>
       :root {
         color-scheme: light dark;
@@ -65,7 +66,7 @@ const html = `<!doctype html>
   </head>
   <body>
     <main>
-      <h1>Talks</h1>
+      <h1>${siteTitle}</h1>
       <p>Select a talk:</p>
       <ul>
 ${links}

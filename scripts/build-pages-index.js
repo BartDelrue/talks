@@ -6,7 +6,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const distDir = path.resolve(__dirname, '..', 'dist')
 const siteTitle = 'Talks'
 
-const humanizeFolderName = (name) => name.replaceAll('-', ' ')
+const formatFolderNameForDisplay = (name) =>
+  name
+    .split('-')
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(' ')
 
 async function getFolders(directory) {
   try {
@@ -16,7 +20,7 @@ async function getFolders(directory) {
       .sort((a, b) => a.localeCompare(b))
   } catch (error) {
     if (error?.code === 'ENOENT') {
-      throw new Error(`Cannot generate GitHub Pages index because ${directory} does not exist yet.`)
+      throw new Error(`Cannot generate GitHub Pages index because ${directory} does not exist.`)
     }
 
     throw error
@@ -26,7 +30,7 @@ async function getFolders(directory) {
 const folders = await getFolders(distDir)
 
 const links = folders
-  .map((folder) => `      <li><a href="./${folder}/">${humanizeFolderName(folder)}</a></li>`)
+  .map((folder) => `      <li><a href="./${folder}/">${formatFolderNameForDisplay(folder)}</a></li>`)
   .join('\n')
 
 const html = `<!doctype html>

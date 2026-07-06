@@ -5,15 +5,27 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const distDir = path.resolve(__dirname, '..', 'dist')
 
-const prettifyName = (name) => name.replaceAll('-', ' ')
+const formatFolderName = (name) => name.replaceAll('-', ' ')
 
-const folders = (await fs.readdir(distDir, { withFileTypes: true }))
-  .filter((entry) => entry.isDirectory())
-  .map((entry) => entry.name)
-  .sort((a, b) => a.localeCompare(b))
+async function getFolders(directory) {
+  try {
+    return (await fs.readdir(directory, { withFileTypes: true }))
+      .filter((entry) => entry.isDirectory())
+      .map((entry) => entry.name)
+      .sort((a, b) => a.localeCompare(b))
+  } catch (error) {
+    if (error?.code === 'ENOENT') {
+      throw new Error(`Cannot generate Pages index because ${directory} does not exist yet.`)
+    }
+
+    throw error
+  }
+}
+
+const folders = await getFolders(distDir)
 
 const links = folders
-  .map((folder) => `      <li><a href="./${folder}/">${prettifyName(folder)}</a></li>`)
+  .map((folder) => `      <li><a href="./${folder}/">${formatFolderName(folder)}</a></li>`)
   .join('\n')
 
 const html = `<!doctype html>
